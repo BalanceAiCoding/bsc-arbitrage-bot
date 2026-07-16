@@ -101,9 +101,9 @@ export class DEXManager {
   async getAllPrices(
     tokenIn: string,
     tokenOut: string,
-    amountIn: ethers.BigNumber
-  ): Promise<Map<string, ethers.BigNumber>> {
-    const prices = new Map<string, ethers.BigNumber>();
+    amountIn: bigint
+  ): Promise<Map<string, bigint>> {
+    const prices = new Map<string, bigint>();
 
     for (const [name, dex] of this.dexes) {
       try {
@@ -124,9 +124,9 @@ export class DEXManager {
   async getAllAmountsOut(
     tokenIn: string,
     tokenOut: string,
-    amountIn: ethers.BigNumber
-  ): Promise<Map<string, ethers.BigNumber>> {
-    const amounts = new Map<string, ethers.BigNumber>();
+    amountIn: bigint
+  ): Promise<Map<string, bigint>> {
+    const amounts = new Map<string, bigint>();
 
     for (const [name, dex] of this.dexes) {
       try {
@@ -147,8 +147,8 @@ export class DEXManager {
   async getAllReserves(
     tokenA: string,
     tokenB: string
-  ): Promise<Map<string, [ethers.BigNumber, ethers.BigNumber]>> {
-    const reserves = new Map<string, [ethers.BigNumber, ethers.BigNumber]>();
+  ): Promise<Map<string, [bigint, bigint]>> {
+    const reserves = new Map<string, [bigint, bigint]>();
 
     for (const [name, dex] of this.dexes) {
       try {

@@ -98,14 +98,14 @@ export class SecurityCoordinator {
   /**
    * 记录支出
    */
-  recordSpend(amount: ethers.BigNumber): void {
+  recordSpend(amount: bigint): void {
     this.spendLimitGuard.recordSpend(amount);
   }
 
   /**
    * 更新投资组合价值（用于熔断器）
    */
-  updatePortfolioValue(value: ethers.BigNumber): void {
+  updatePortfolioValue(value: bigint): void {
     this.circuitBreaker.updatePortfolioValue(value);
   }
 

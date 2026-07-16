@@ -38,14 +38,14 @@ export class WalletManager {
   /**
    * 获取 BNB 余额
    */
-  async getBalance(): Promise<ethers.BigNumber> {
+  async getBalance(): Promise<bigint> {
     return this.provider.getBalance(this.wallet.address);
   }
 
   /**
    * 获取代币余额
    */
-  async getTokenBalance(tokenAddress: string): Promise<ethers.BigNumber> {
+  async getTokenBalance(tokenAddress: string): Promise<bigint> {
     const erc20Abi = [
       "function balanceOf(address account) external view returns (uint256)",
       "function decimals() external view returns (uint8)",

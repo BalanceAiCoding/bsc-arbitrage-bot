@@ -21,7 +21,7 @@ export interface PriceInfo {
   tokenIn: string;
   tokenOut: string;
   dex: string;
-  price: ethers.BigNumber;
+  price: bigint;
   timestamp: number;
 }
 
@@ -31,22 +31,22 @@ export interface ArbitrageOpportunity {
   tokenB: string;
   buyDex: string;
   sellDex: string;
-  buyPrice: ethers.BigNumber;
-  sellPrice: ethers.BigNumber;
+  buyPrice: bigint;
+  sellPrice: bigint;
   profitBps: number; // basis points
-  optimalAmount: ethers.BigNumber;
-  expectedProfit: ethers.BigNumber;
-  gasCost: ethers.BigNumber;
-  netProfit: ethers.BigNumber;
+  optimalAmount: bigint;
+  expectedProfit: bigint;
+  gasCost: bigint;
+  netProfit: bigint;
   timestamp: number;
 }
 
 // DEX 连接器接口
 export interface IDEXConnector {
   name: string;
-  getPrice(tokenIn: string, tokenOut: string, amountIn: ethers.BigNumber): Promise<ethers.BigNumber>;
-  getAmountOut(tokenIn: string, tokenOut: string, amountIn: ethers.BigNumber): Promise<ethers.BigNumber>;
-  getReserves(tokenA: string, tokenB: string): Promise<[ethers.BigNumber, ethers.BigNumber]>;
+  getPrice(tokenIn: string, tokenOut: string, amountIn: bigint): Promise<bigint>;
+  getAmountOut(tokenIn: string, tokenOut: string, amountIn: bigint): Promise<bigint>;
+  getReserves(tokenA: string, tokenB: string): Promise<[bigint, bigint]>;
 }
 
 // 安全守卫接口
@@ -60,8 +60,8 @@ export interface ISecurityGuard {
 export interface ExecutionResult {
   success: boolean;
   txHash?: string;
-  gasUsed?: ethers.BigNumber;
-  actualProfit?: ethers.BigNumber;
+  gasUsed?: bigint;
+  actualProfit?: bigint;
   error?: string;
   timestamp: number;
 }
@@ -70,8 +70,8 @@ export interface ExecutionResult {
 export interface SwapParams {
   tokenIn: string;
   tokenOut: string;
-  amountIn: ethers.BigNumber;
-  amountOutMin: ethers.BigNumber;
+  amountIn: bigint;
+  amountOutMin: bigint;
   deadline: number;
   dex: string;
 }
@@ -80,8 +80,8 @@ export interface SwapParams {
 export interface ArbitragePath {
   tokenPath: string[];
   dexPath: string[];
-  amounts: ethers.BigNumber[];
-  expectedProfit: ethers.BigNumber;
+  amounts: bigint[];
+  expectedProfit: bigint;
 }
 
 // 日志级别

@@ -80,7 +80,7 @@ export class SimulationGuard implements ISecurityGuard {
    */
   private async simulateBuy(opportunity: ArbitrageOpportunity): Promise<{
     success: boolean;
-    expectedOutput?: ethers.BigNumber;
+    expectedOutput?: bigint;
     error?: string;
   }> {
     try {
@@ -108,10 +108,10 @@ export class SimulationGuard implements ISecurityGuard {
    */
   private async simulateSell(
     opportunity: ArbitrageOpportunity,
-    tokenBAmount: ethers.BigNumber
+    tokenBAmount: bigint
   ): Promise<{
     success: boolean;
-    expectedOutput?: ethers.BigNumber;
+    expectedOutput?: bigint;
     error?: string;
   }> {
     try {

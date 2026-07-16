@@ -107,9 +107,9 @@ export class SlippageGuard implements ISecurityGuard {
    * 计算最小输出金额（含滑点保护）
    */
   calculateMinAmountOut(
-    expectedAmountOut: ethers.BigNumber,
+    expectedAmountOut: bigint,
     customSlippageBps?: number
-  ): ethers.BigNumber {
+  ): bigint {
     const slippageBps = customSlippageBps || ARBITRAGE_CONFIG.maxSlippageBps;
     const multiplier = BigInt(10000 - slippageBps);
     return (expectedAmountOut * multiplier) / BigInt(10000);

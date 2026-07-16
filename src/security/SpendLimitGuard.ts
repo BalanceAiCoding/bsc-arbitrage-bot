@@ -8,7 +8,7 @@ import { SECURITY_CONFIG } from "../config";
  * 防止单笔交易或单日支出超过限额
  */
 export class SpendLimitGuard implements ISecurityGuard {
-  private dailySpend: Map<string, ethers.BigNumber> = new Map(); // date -> amount
+  private dailySpend: Map<string, bigint> = new Map(); // date -> amount
   private consecutiveFailures: number = 0;
   private lastFailureTime: number = 0;
 
@@ -74,7 +74,7 @@ export class SpendLimitGuard implements ISecurityGuard {
   /**
    * 记录执行结果
    */
-  recordExecution(result: { success: boolean; actualProfit?: ethers.BigNumber }): void {
+  recordExecution(result: { success: boolean; actualProfit?: bigint }): void {
     if (!result.success) {
       this.consecutiveFailures++;
       this.lastFailureTime = Date.now();
@@ -97,7 +97,7 @@ export class SpendLimitGuard implements ISecurityGuard {
   /**
    * 记录支出金额
    */
-  recordSpend(amount: ethers.BigNumber): void {
+  recordSpend(amount: bigint): void {
     const today = this.getTodayKey();
     const currentSpend = this.dailySpend.get(today) || BigInt(0);
     this.dailySpend.set(today, currentSpend + amount);
@@ -119,7 +119,7 @@ export class SpendLimitGuard implements ISecurityGuard {
   /**
    * 获取今日支出
    */
-  getDailySpend(): ethers.BigNumber {
+  getDailySpend(): bigint {
     return this.dailySpend.get(this.getTodayKey()) || BigInt(0);
   }
 

@@ -58,7 +58,7 @@ export class OpportunityFinder {
 
           // 确定买入和卖出 DEX
           let buyDex: string, sellDex: string;
-          let buyPrice: ethers.BigNumber, sellPrice: ethers.BigNumber;
+          let buyPrice: bigint, sellPrice: bigint;
 
           if (price1 < price2) {
             buyDex = dex1;
@@ -132,8 +132,8 @@ export class OpportunityFinder {
    * 计算价格差异（基点）
    */
   private calculatePriceDifference(
-    buyPrice: ethers.BigNumber,
-    sellPrice: ethers.BigNumber
+    buyPrice: bigint,
+    sellPrice: bigint
   ): number {
     if (buyPrice === BigInt(0)) return 0;
     const diff = ((sellPrice - buyPrice) * BigInt(10000)) / buyPrice;
@@ -148,8 +148,8 @@ export class OpportunityFinder {
     tokenB: TokenInfo,
     buyDex: string,
     sellDex: string,
-    buyPrice: ethers.BigNumber,
-    sellPrice: ethers.BigNumber,
+    buyPrice: bigint,
+    sellPrice: bigint,
     profitBps: number
   ): Promise<ArbitrageOpportunity | null> {
     try {

@@ -5,11 +5,11 @@ import { ethers } from "ethers";
  * x * y = k
  */
 export function calculateSwapOutput(
-  amountIn: ethers.BigNumber,
-  reserveIn: ethers.BigNumber,
-  reserveOut: ethers.BigNumber,
+  amountIn: bigint,
+  reserveIn: bigint,
+  reserveOut: bigint,
   feeBps: number
-): ethers.BigNumber {
+): bigint {
   const feeMultiplier = 10000 - feeBps;
   const amountInWithFee = (amountIn * BigInt(feeMultiplier)) / BigInt(10000);
   const numerator = amountInWithFee * reserveOut;
@@ -21,8 +21,8 @@ export function calculateSwapOutput(
  * 计算价格（tokenOut / tokenIn）
  */
 export function calculatePrice(
-  reserveIn: ethers.BigNumber,
-  reserveOut: ethers.BigNumber,
+  reserveIn: bigint,
+  reserveOut: bigint,
   decimalsIn: number = 18,
   decimalsOut: number = 18
 ): number {
@@ -45,13 +45,13 @@ export function calculatePriceDiffBps(
  * 计算套利利润（扣除手续费）
  */
 export function calculateArbitrageProfit(
-  amountIn: ethers.BigNumber,
+  amountIn: bigint,
   buyPrice: number,
   sellPrice: number,
   buyFeeBps: number,
   sellFeeBps: number,
-  gasCost: ethers.BigNumber
-): ethers.BigNumber {
+  gasCost: bigint
+): bigint {
   // 在低价 DEX 买入
   const amountAfterBuyFee = (amountIn * BigInt(10000 - buyFeeBps)) / BigInt(10000);
   const tokensBought = amountAfterBuyFee; // 简化计算，实际需要 reserve 数据
@@ -68,13 +68,13 @@ export function calculateArbitrageProfit(
  * 计算最优套利金额
  */
 export function calculateOptimalAmount(
-  reserveIn1: ethers.BigNumber,
-  reserveOut1: ethers.BigNumber,
-  reserveIn2: ethers.BigNumber,
-  reserveOut2: ethers.BigNumber,
+  reserveIn1: bigint,
+  reserveOut1: bigint,
+  reserveIn2: bigint,
+  reserveOut2: bigint,
   feeBps1: number,
   feeBps2: number
-): ethers.BigNumber {
+): bigint {
   // 简化版本：使用固定比例
   // 实际最优解需要求解二次方程
   const minReserve = reserveIn1 < reserveIn2 ? reserveIn1 : reserveIn2;
@@ -84,14 +84,14 @@ export function calculateOptimalAmount(
 /**
  * 将金额格式化为人类可读格式
  */
-export function formatAmount(amount: ethers.BigNumber, decimals: number = 18): string {
+export function formatAmount(amount: bigint, decimals: number = 18): string {
   return ethers.formatUnits(amount, decimals);
 }
 
 /**
  * 解析人类可读金额为 BigNumber
  */
-export function parseAmount(amount: string, decimals: number = 18): ethers.BigNumber {
+export function parseAmount(amount: string, decimals: number = 18): bigint {
   return ethers.parseUnits(amount, decimals);
 }
 
@@ -99,8 +99,8 @@ export function parseAmount(amount: string, decimals: number = 18): ethers.BigNu
  * 计算滑点
  */
 export function calculateSlippage(
-  expectedAmount: ethers.BigNumber,
-  actualAmount: ethers.BigNumber
+  expectedAmount: bigint,
+  actualAmount: bigint
 ): number {
   if (expectedAmount === BigInt(0)) return 0;
   const diff = expectedAmount > actualAmount ? expectedAmount - actualAmount : actualAmount - expectedAmount;
@@ -118,8 +118,8 @@ export function isValidPrice(price: number): boolean {
  * 计算年化收益率（APR）
  */
 export function calculateAPR(
-  profit: ethers.BigNumber,
-  capital: ethers.BigNumber,
+  profit: bigint,
+  capital: bigint,
   timeHours: number
 ): number {
   if (capital === BigInt(0) || timeHours <= 0) return 0;

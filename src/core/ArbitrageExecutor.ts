@@ -119,7 +119,7 @@ export class ArbitrageExecutor {
   private async executeSwap(params: SwapParams): Promise<{
     success: boolean;
     txHash?: string;
-    gasUsed?: ethers.BigNumber;
+    gasUsed?: bigint;
     error?: string;
   }> {
     try {
@@ -177,7 +177,7 @@ export class ArbitrageExecutor {
   /**
    * 计算最小输出金额（含滑点保护）
    */
-  private calculateMinAmountOut(expectedAmountOut: ethers.BigNumber): ethers.BigNumber {
+  private calculateMinAmountOut(expectedAmountOut: bigint): bigint {
     const slippageMultiplier = BigInt(10000 - ARBITRAGE_CONFIG.maxSlippageBps);
     return (expectedAmountOut * slippageMultiplier) / BigInt(10000);
   }
@@ -192,7 +192,7 @@ export class ArbitrageExecutor {
   /**
    * 获取代币余额
    */
-  private async getTokenBalance(tokenAddress: string): Promise<ethers.BigNumber> {
+  private async getTokenBalance(tokenAddress: string): Promise<bigint> {
     if (tokenAddress === ethers.ZeroAddress || tokenAddress === "BNB") {
       // BNB 余额
       return this.provider.getBalance(this.wallet.address);
@@ -210,7 +210,7 @@ export class ArbitrageExecutor {
    */
   private async approveIfNeeded(
     tokenAddress: string,
-    amount: ethers.BigNumber,
+    amount: bigint,
     dexName: string
   ): Promise<void> {
     const dex = this.dexManager.getDEX(dexName);
@@ -240,7 +240,7 @@ export class ArbitrageExecutor {
    */
   private async calculateActualProfit(
     opportunity: ArbitrageOpportunity
-  ): Promise<ethers.BigNumber> {
+  ): Promise<bigint> {
     // 简化计算：当前余额 - 初始余额
     // 实际实现应该记录交易前后的余额
     return opportunity.expectedProfit;

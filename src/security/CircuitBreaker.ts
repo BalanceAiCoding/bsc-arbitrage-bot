@@ -9,9 +9,9 @@ import { SECURITY_CONFIG } from "../config";
  */
 export class CircuitBreaker implements ISecurityGuard {
   private consecutiveLosses: number = 0;
-  private hourStartValue: ethers.BigNumber = BigInt(0);
+  private hourStartValue: bigint = BigInt(0);
   private hourStartTime: number = 0;
-  private dayStartValue: ethers.BigNumber = BigInt(0);
+  private dayStartValue: bigint = BigInt(0);
   private dayStartTime: number = 0;
   private halted: boolean = false;
   private haltReason: string = "";
@@ -47,7 +47,7 @@ export class CircuitBreaker implements ISecurityGuard {
   /**
    * 记录执行结果并检查是否需要熔断
    */
-  recordExecution(result: { success: boolean; actualProfit?: ethers.BigNumber }): void {
+  recordExecution(result: { success: boolean; actualProfit?: bigint }): void {
     if (!result.success) {
       this.consecutiveLosses++;
       
@@ -99,7 +99,7 @@ export class CircuitBreaker implements ISecurityGuard {
   /**
    * 更新投资组合价值（用于计算 PnL）
    */
-  updatePortfolioValue(value: ethers.BigNumber): void {
+  updatePortfolioValue(value: bigint): void {
     const now = Date.now();
 
     // 初始化小时起始值
@@ -179,7 +179,7 @@ export class CircuitBreaker implements ISecurityGuard {
   /**
    * 计算收益率百分比
    */
-  private calculatePnLPct(startValue: ethers.BigNumber, profit: ethers.BigNumber): number {
+  private calculatePnLPct(startValue: bigint, profit: bigint): number {
     if (startValue === BigInt(0)) return 0;
     return Number(profit) / Number(startValue);
   }
