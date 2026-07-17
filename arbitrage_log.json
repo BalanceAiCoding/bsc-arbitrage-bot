@@ -1,0 +1,583 @@
+{
+  "startTime": 1784230797722,
+  "opportunities": [
+    {
+      "pair": "USDT/BUSD",
+      "diffPct": "0.1306",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "1.298073632466946312",
+      "timestamp": "2026-07-16T19:39:58.009Z"
+    },
+    {
+      "pair": "USDT/USDC",
+      "diffPct": "0.4469",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "4.430859706111082469",
+      "timestamp": "2026-07-16T19:39:58.193Z"
+    },
+    {
+      "pair": "WBNB/CAKE",
+      "diffPct": "0.1834",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.075256731769556097",
+      "timestamp": "2026-07-16T19:39:58.350Z"
+    },
+    {
+      "pair": "WBNB/BTCB",
+      "diffPct": "0.0732",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.000000654301539533",
+      "timestamp": "2026-07-16T19:39:58.558Z"
+    },
+    {
+      "pair": "USDT/BUSD",
+      "diffPct": "0.1306",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "1.298052474218522423",
+      "timestamp": "2026-07-16T19:40:28.044Z"
+    },
+    {
+      "pair": "USDT/USDC",
+      "diffPct": "0.4469",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "4.430859706111082469",
+      "timestamp": "2026-07-16T19:40:28.247Z"
+    },
+    {
+      "pair": "WBNB/CAKE",
+      "diffPct": "0.1834",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.075256731769556097",
+      "timestamp": "2026-07-16T19:40:28.437Z"
+    },
+    {
+      "pair": "WBNB/BTCB",
+      "diffPct": "0.0732",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.000000654301539533",
+      "timestamp": "2026-07-16T19:40:28.682Z"
+    },
+    {
+      "pair": "USDT/BUSD",
+      "diffPct": "0.1306",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "1.298052474218522423",
+      "timestamp": "2026-07-16T19:40:58.025Z"
+    },
+    {
+      "pair": "USDT/USDC",
+      "diffPct": "0.4469",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "4.430859706111082469",
+      "timestamp": "2026-07-16T19:40:58.193Z"
+    },
+    {
+      "pair": "WBNB/CAKE",
+      "diffPct": "0.1834",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.075256731769556097",
+      "timestamp": "2026-07-16T19:40:58.376Z"
+    },
+    {
+      "pair": "WBNB/BTCB",
+      "diffPct": "0.0732",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.000000654301539533",
+      "timestamp": "2026-07-16T19:40:58.573Z"
+    },
+    {
+      "pair": "USDT/BUSD",
+      "diffPct": "0.1345",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "1.337068196007824449",
+      "timestamp": "2026-07-16T19:41:28.013Z"
+    },
+    {
+      "pair": "USDT/USDC",
+      "diffPct": "0.4469",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "4.430859706111082469",
+      "timestamp": "2026-07-16T19:41:28.165Z"
+    },
+    {
+      "pair": "WBNB/CAKE",
+      "diffPct": "0.1824",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.074820282795994911",
+      "timestamp": "2026-07-16T19:41:28.318Z"
+    },
+    {
+      "pair": "WBNB/BTCB",
+      "diffPct": "0.0732",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.000000654301539533",
+      "timestamp": "2026-07-16T19:41:28.516Z"
+    },
+    {
+      "pair": "USDT/BUSD",
+      "diffPct": "0.1345",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "1.337068196007824449",
+      "timestamp": "2026-07-16T19:41:58.010Z"
+    },
+    {
+      "pair": "USDT/USDC",
+      "diffPct": "0.4469",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "4.430859706111082469",
+      "timestamp": "2026-07-16T19:41:58.168Z"
+    },
+    {
+      "pair": "WBNB/CAKE",
+      "diffPct": "0.1824",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.074820282795994911",
+      "timestamp": "2026-07-16T19:41:58.377Z"
+    },
+    {
+      "pair": "WBNB/BTCB",
+      "diffPct": "0.0732",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.000000654301539533",
+      "timestamp": "2026-07-16T19:41:58.586Z"
+    },
+    {
+      "pair": "USDT/BUSD",
+      "diffPct": "0.1345",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "1.337068196007824449",
+      "timestamp": "2026-07-16T19:42:28.009Z"
+    },
+    {
+      "pair": "USDT/USDC",
+      "diffPct": "0.4469",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "4.430859706111082469",
+      "timestamp": "2026-07-16T19:42:28.170Z"
+    },
+    {
+      "pair": "WBNB/CAKE",
+      "diffPct": "0.1823",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.074796749942043278",
+      "timestamp": "2026-07-16T19:42:28.316Z"
+    },
+    {
+      "pair": "WBNB/BTCB",
+      "diffPct": "0.0732",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.000000654301539533",
+      "timestamp": "2026-07-16T19:42:28.511Z"
+    },
+    {
+      "pair": "USDT/BUSD",
+      "diffPct": "0.1345",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "1.337068196007824449",
+      "timestamp": "2026-07-16T19:42:58.043Z"
+    },
+    {
+      "pair": "USDT/USDC",
+      "diffPct": "0.4469",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "4.430859706111082469",
+      "timestamp": "2026-07-16T19:42:58.211Z"
+    },
+    {
+      "pair": "WBNB/CAKE",
+      "diffPct": "0.1823",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.074796749942043278",
+      "timestamp": "2026-07-16T19:42:58.409Z"
+    },
+    {
+      "pair": "WBNB/BTCB",
+      "diffPct": "0.0732",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.000000654301539533",
+      "timestamp": "2026-07-16T19:42:58.633Z"
+    },
+    {
+      "pair": "USDT/BUSD",
+      "diffPct": "0.1345",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "1.337054949938312025",
+      "timestamp": "2026-07-16T19:43:28.627Z"
+    },
+    {
+      "pair": "USDT/USDC",
+      "diffPct": "0.4469",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "4.430859706111082469",
+      "timestamp": "2026-07-16T19:43:28.843Z"
+    },
+    {
+      "pair": "WBNB/CAKE",
+      "diffPct": "0.1823",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.074796749942043278",
+      "timestamp": "2026-07-16T19:43:28.986Z"
+    },
+    {
+      "pair": "WBNB/BTCB",
+      "diffPct": "0.0732",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.000000654301539533",
+      "timestamp": "2026-07-16T19:43:29.217Z"
+    },
+    {
+      "pair": "USDT/BUSD",
+      "diffPct": "0.1345",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "1.337081056917643832",
+      "timestamp": "2026-07-16T19:43:58.029Z"
+    },
+    {
+      "pair": "USDT/USDC",
+      "diffPct": "0.4469",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "4.430859706111082469",
+      "timestamp": "2026-07-16T19:43:58.179Z"
+    },
+    {
+      "pair": "WBNB/CAKE",
+      "diffPct": "0.1823",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.074796749942043278",
+      "timestamp": "2026-07-16T19:43:58.330Z"
+    },
+    {
+      "pair": "WBNB/BTCB",
+      "diffPct": "0.0732",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.000000654301539533",
+      "timestamp": "2026-07-16T19:43:58.523Z"
+    },
+    {
+      "pair": "USDT/BUSD",
+      "diffPct": "0.1345",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "1.337081056917643832",
+      "timestamp": "2026-07-16T19:44:28.064Z"
+    },
+    {
+      "pair": "USDT/USDC",
+      "diffPct": "0.4469",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "4.430859706111082469",
+      "timestamp": "2026-07-16T19:44:28.253Z"
+    },
+    {
+      "pair": "WBNB/CAKE",
+      "diffPct": "0.1823",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.074796749942043278",
+      "timestamp": "2026-07-16T19:44:28.416Z"
+    },
+    {
+      "pair": "WBNB/BTCB",
+      "diffPct": "0.0732",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.000000654301539533",
+      "timestamp": "2026-07-16T19:44:28.640Z"
+    },
+    {
+      "pair": "USDT/BUSD",
+      "diffPct": "0.1345",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "1.337081056917643832",
+      "timestamp": "2026-07-16T19:44:58.031Z"
+    },
+    {
+      "pair": "USDT/USDC",
+      "diffPct": "0.4469",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "4.430859706111082469",
+      "timestamp": "2026-07-16T19:44:58.182Z"
+    },
+    {
+      "pair": "WBNB/CAKE",
+      "diffPct": "0.1823",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.074796749942043278",
+      "timestamp": "2026-07-16T19:44:58.332Z"
+    },
+    {
+      "pair": "WBNB/BTCB",
+      "diffPct": "0.0732",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.000000654301539533",
+      "timestamp": "2026-07-16T19:44:58.537Z"
+    },
+    {
+      "pair": "USDT/BUSD",
+      "diffPct": "0.1345",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "1.337081056917643832",
+      "timestamp": "2026-07-16T19:45:28.096Z"
+    },
+    {
+      "pair": "USDT/USDC",
+      "diffPct": "0.4469",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "4.430859706111082469",
+      "timestamp": "2026-07-16T19:45:28.316Z"
+    },
+    {
+      "pair": "WBNB/CAKE",
+      "diffPct": "0.1823",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.074796749942043278",
+      "timestamp": "2026-07-16T19:45:28.502Z"
+    },
+    {
+      "pair": "WBNB/BTCB",
+      "diffPct": "0.0732",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.000000654301539533",
+      "timestamp": "2026-07-16T19:45:28.754Z"
+    },
+    {
+      "pair": "USDT/BUSD",
+      "diffPct": "0.1345",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "1.337081056917643832",
+      "timestamp": "2026-07-16T19:49:02.453Z"
+    },
+    {
+      "pair": "USDT/USDC",
+      "diffPct": "0.4469",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "4.430859706111082469",
+      "timestamp": "2026-07-16T19:49:02.822Z"
+    },
+    {
+      "pair": "WBNB/CAKE",
+      "diffPct": "0.1823",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.074796749942043278",
+      "timestamp": "2026-07-16T19:49:03.013Z"
+    },
+    {
+      "pair": "WBNB/BTCB",
+      "diffPct": "0.0732",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.000000654301539533",
+      "timestamp": "2026-07-16T19:49:03.238Z"
+    },
+    {
+      "pair": "USDT/BUSD",
+      "diffPct": "0.1345",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "1.337109288011138007",
+      "timestamp": "2026-07-16T19:49:31.827Z"
+    },
+    {
+      "pair": "USDT/USDC",
+      "diffPct": "0.4469",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "4.430859706111082469",
+      "timestamp": "2026-07-16T19:49:32.012Z"
+    },
+    {
+      "pair": "WBNB/CAKE",
+      "diffPct": "0.1823",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.074796749942043278",
+      "timestamp": "2026-07-16T19:49:32.204Z"
+    },
+    {
+      "pair": "WBNB/BTCB",
+      "diffPct": "0.0732",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.000000654301539533",
+      "timestamp": "2026-07-16T19:49:32.451Z"
+    },
+    {
+      "pair": "USDT/BUSD",
+      "diffPct": "0.1345",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "1.337109288011138007",
+      "timestamp": "2026-07-16T19:50:02.276Z"
+    },
+    {
+      "pair": "USDT/USDC",
+      "diffPct": "0.4469",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "4.430859706111082469",
+      "timestamp": "2026-07-16T19:50:03.312Z"
+    },
+    {
+      "pair": "WBNB/CAKE",
+      "diffPct": "0.1817",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.074547548086141532",
+      "timestamp": "2026-07-16T19:50:04.541Z"
+    },
+    {
+      "pair": "WBNB/BTCB",
+      "diffPct": "0.0732",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.000000654301539533",
+      "timestamp": "2026-07-16T19:50:05.691Z"
+    },
+    {
+      "pair": "USDT/BUSD",
+      "diffPct": "0.1345",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "1.337109288011138007",
+      "timestamp": "2026-07-16T19:50:31.807Z"
+    },
+    {
+      "pair": "USDT/USDC",
+      "diffPct": "0.4469",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "4.430859706111082469",
+      "timestamp": "2026-07-16T19:50:31.953Z"
+    },
+    {
+      "pair": "WBNB/CAKE",
+      "diffPct": "0.1817",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.074547548086141532",
+      "timestamp": "2026-07-16T19:50:32.132Z"
+    },
+    {
+      "pair": "WBNB/BTCB",
+      "diffPct": "0.0732",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.000000654301539533",
+      "timestamp": "2026-07-16T19:50:32.356Z"
+    },
+    {
+      "pair": "USDT/BUSD",
+      "diffPct": "0.1345",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "1.337109288011138007",
+      "timestamp": "2026-07-16T19:51:01.853Z"
+    },
+    {
+      "pair": "USDT/USDC",
+      "diffPct": "0.4469",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "4.430859706111082469",
+      "timestamp": "2026-07-16T19:51:02.025Z"
+    },
+    {
+      "pair": "WBNB/CAKE",
+      "diffPct": "0.1823",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.074796126939027593",
+      "timestamp": "2026-07-16T19:51:02.246Z"
+    },
+    {
+      "pair": "WBNB/BTCB",
+      "diffPct": "0.0732",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.000000654301539533",
+      "timestamp": "2026-07-16T19:51:02.611Z"
+    },
+    {
+      "pair": "USDT/BUSD",
+      "diffPct": "0.1345",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "1.337109288011138007",
+      "timestamp": "2026-07-16T19:51:31.813Z"
+    },
+    {
+      "pair": "USDT/USDC",
+      "diffPct": "0.4469",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "4.430859706111082469",
+      "timestamp": "2026-07-16T19:51:31.986Z"
+    },
+    {
+      "pair": "WBNB/CAKE",
+      "diffPct": "0.1823",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.074796126939027593",
+      "timestamp": "2026-07-16T19:51:32.180Z"
+    },
+    {
+      "pair": "WBNB/BTCB",
+      "diffPct": "0.0732",
+      "buyDex": "Biswap",
+      "sellDex": "PancakeSwap",
+      "grossProfit": "0.000000654301539533",
+      "timestamp": "2026-07-16T19:51:32.372Z"
+    }
+  ],
+  "simulations": [],
+  "totalProfit": "0"
+}
